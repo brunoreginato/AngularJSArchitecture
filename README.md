@@ -39,11 +39,48 @@ So, based on our main "rule", that is categorize the projects based on client's 
 		- Scene
 			- Resources
 
-
-###Modules
 ###Module
+A module is the biggest possible categorization of the client's business, it represents something very important for client, that certanily will have sub-divisions (flows) and also specific resources for that. 
+Something very important is that a module is not a folder for only scenes, we will also put **shared resouces** inside of it. For example, if I have specifics constants for for that module, the file will be on module's folder.
+
+A good example of modules for a bank application should be:
+
+`investments`
+
+`cards`
+
+`transfers`
+
+`ui-components`
+
 ###Scene
+A Scene is a flow that we will have on our application, if for example, inside the `investments` module, I will problably have a page that list all investments so a good scene will problably be `listAll`. Each scene should have a folder, for group your resources.
+
+Only remembering... If we have a resource that will be shared by another scenes of that module that resource belongs to the **MODULE** not to the **SCENE**.
+
 ###Resources
+The resources are the files, they can be putted on the module folders, if they are shared between the scenes, or inside the scene folder, if they are specifics for that flow.
+
+But... what resources could be?
+
+- **Services**: login.service.js
+- **Factories**: login.factory.js
+- **Controllers**: login.controller.js
+- **Views**: login.html
+- **Templates**: loginHeader.tmpl.html
+- **Directives**: keyboard.directive.js
+- **Constants**: httpStatus.constants.js
+
+
+#Conclusion
+Pretty simple hum? The real thing is that is no more than a folder division!
+Every time that you have a doubt about if something deserves to be a module, or if a resource is from module or from scene, discuss with your collegues! This is very important because discussing we can reach all the possibilities of non-covered cases by this architecture.
+
+#Examples
+[Example Folder](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
+
+#Getting startted!
+[Yoman Plugin](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
 
 #References
 [Angular Style Guide - John Papa](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
