@@ -76,6 +76,11 @@ But... what resources could be?
 Pretty simple hum? The real thing is that is no more than a folder division!
 Every time that you have a doubt about if something deserves to be a module, or if a resource is from module or from scene, discuss with your collegues! This is very important because discussing we can reach all the possibilities of non-covered cases by this architecture.
 
+So, the main idea of this project is to make the programmer closer to the client. I see that a lot of problems exists because of misunderstandings, so putting the code near of the business maybe we can avoid some of these.
+
+I highly recomend you to use the style guide of John Papa (link on references). His patters of variable names, functions and a lot of other stuffs are very good!
+
+
 #Examples
 [Example Folder](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
 
