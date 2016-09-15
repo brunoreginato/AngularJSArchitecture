@@ -2,9 +2,9 @@
 This project has the main objective to present and centralize the ideas of a well defined and solid Architecture for AngularJS. Feel free to contribute, contest or just read :)
 
 # Motivation
-The motivation of write a clean code, with well defined resposabilities should not be a motivation of an AngularJS Architecture but for all projects that evolve people working toghether but our main objective is share patterns that worked with us on **real projects**, not only on speaks.
+This idea began from some experiences that we had while working with JS applications, where we wasted time with solutions that could be much better if we had a simple and organized file structure.
 
-We also would like to listen and improve this guide, we doesn't promisse you an iron bullet but we promisse something that will make you sufer less :D 
+Therefore, we are developing this architecture to provide a start point for a scalable, simple and quick web application. This solution is based on our experience with web applications and desire to create something that can be helpful to the community.
 
 # Premises
 - This guide supposes that you have a minimum knwoledge of AngularJS, in order to understand the responsabilities of each angular component.
@@ -75,11 +75,6 @@ But... what resources could be?
 #Conclusion
 Pretty simple hum? The real thing is that is no more than a folder division!
 Every time that you have a doubt about if something deserves to be a module, or if a resource is from module or from scene, discuss with your collegues! This is very important because discussing we can reach all the possibilities of non-covered cases by this architecture.
-
-So, the main idea of this project is to make the programmer closer to the client. I see that a lot of problems exists because of misunderstandings, so putting the code near of the business maybe we can avoid some of these.
-
-I highly recomend you to use the style guide of John Papa (link on references). His patters of variable names, functions and a lot of other stuffs are very good!
-
 
 #Examples
 [Example Folder](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
