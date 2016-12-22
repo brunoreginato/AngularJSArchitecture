@@ -79,7 +79,7 @@ Every time that you have a doubt about if something deserves to be a module, or 
 #Examples
 [Example Folder](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
 
-#Getting startted!
+#Getting started!
 [Yoman Plugin](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md "Angular Style Guide - John Papa")
 
 #References
